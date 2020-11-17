@@ -5,6 +5,7 @@
 // @components
 @import "./components/button";
 @import "./components/input";
+@import "./components/loginform";
 @import "./components/registerform";
 @import "./components/toggle";
 
@@ -12,4 +13,5 @@
 // @templates
 
 // @pages
+@import "./pages/login";
 @import "./pages/register";
