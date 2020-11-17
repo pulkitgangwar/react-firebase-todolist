@@ -1,5 +1,5 @@
 .toggle {
-  max-width: 325px;
+  width: 325px;
   display: flex;
   border-radius: 50px;
   overflow: hidden;
@@ -8,12 +8,11 @@
   -webkit-tap-highlight-color: transparent;
 
   @media only screen and (min-width: $bp-tablet) {
-    max-width: 470px;
+    width: 470px;
   }
 
   @media only screen and (min-width: $bp-desktop) {
-    max-width: unset;
-    min-width: 470px;
+    width: 470px;
   }
 
   &__menu {
