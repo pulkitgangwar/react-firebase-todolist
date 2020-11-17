@@ -1,0 +1,56 @@
+.input {
+  -webkit-tap-highlight-color: transparent;
+  &__label {
+    display: inline-block;
+    margin-bottom: 8px;
+    color: $black-color;
+    font-size: 2rem;
+    cursor: pointer;
+
+    @media only screen and (min-width: $bp-desktop) {
+      font-size: 2.4rem;
+    }
+  }
+
+  &__input {
+    width: 100%;
+    color: $black-color;
+    font-family: inherit;
+    font-weight: $bold;
+    font-size: 2rem;
+    background-color: $grey-color-light;
+    box-shadow: $neu-morph;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    padding: 8px 16px;
+
+    @media only screen and (min-width: $bp-tablet) {
+      padding: 16px 24px;
+    }
+
+    @media only screen and (min-width: $bp-desktop) {
+      font-size: 2.4rem;
+      padding: 24px;
+    }
+
+    &:focus {
+      outline: none;
+      border: 2px solid $primary-color;
+    }
+
+    &::placeholder {
+      color: $grey-color-dark;
+    }
+  }
+
+  &__error-box {
+    color: $red-color;
+    margin-top: 16px;
+    font-size: 2rem;
+
+    @media only screen and (min-width: $bp-desktop) {
+      margin-top: 32px;
+      font-size: 2.4rem;
+    }
+  }
+}
