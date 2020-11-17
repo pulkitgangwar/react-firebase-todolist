@@ -1,0 +1,30 @@
+@mixin buttonstate {
+  background-color: rgba($primary-color, 0.9);
+}
+
+.button {
+  width: 100%;
+  background-color: $primary-color;
+  border: none;
+  font-family: inherit;
+  font-size: 2.4rem;
+  padding: 16px 0;
+  color: $grey-color-light;
+  border-radius: 8px;
+  cursor: pointer;
+
+  @media only screen and (min-width: $bp-desktop) {
+    font-size: 3.2rem;
+  }
+
+  &:focus {
+    outline: none;
+    @include buttonstate();
+  }
+
+  &:hover {
+    @media only screen and (min-width: $bp-desktop) {
+      @include buttonstate();
+    }
+  }
+}
