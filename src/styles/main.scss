@@ -3,5 +3,17 @@
 @import "./base/base";
 
 // @components
+@import "./components/button";
+@import "./components/forgotpasswordform";
+@import "./components/input";
+@import "./components/loginform";
+@import "./components/registerform";
+@import "./components/toggle";
+
 // @layouts
 // @templates
+
+// @pages
+@import "./pages/forgotpassword";
+@import "./pages/login";
+@import "./pages/register";
