@@ -4,6 +4,7 @@
 
 // @components
 @import "./components/button";
+@import "./components/forgotpasswordform";
 @import "./components/input";
 @import "./components/loginform";
 @import "./components/registerform";
@@ -13,5 +14,6 @@
 // @templates
 
 // @pages
+@import "./pages/forgotpassword";
 @import "./pages/login";
 @import "./pages/register";

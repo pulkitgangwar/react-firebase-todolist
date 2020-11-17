@@ -29,9 +29,9 @@ const ForgotPassword = () => {
   };
 
   return (
-    <div className="login">
-      <div className="login__card">
-        <h1 className="login__title">Forgot Password</h1>
+    <div className="forgotpassword">
+      <div className="forgotpassword__card">
+        <h1 className="forgotpassword__title">Forgot Password</h1>
 
         <ForgotPasswordForm
           email={email}
@@ -39,8 +39,8 @@ const ForgotPassword = () => {
           onSubmit={onSubmit}
           errors={errors}
         />
-        <div className="login__link--wrapper">
-          <Link className="login__link" to="/login">
+        <div className="forgotpassword__link--wrapper">
+          <Link className="forgotpassword__link" to="/login">
             Login
           </Link>
         </div>

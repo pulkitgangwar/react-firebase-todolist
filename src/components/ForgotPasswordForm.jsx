@@ -5,7 +5,7 @@ import Button from "../components/Button";
 
 const LoginForm = ({ email, setEmail, onSubmit, disabled, errors }) => {
   return (
-    <form className="loginform" onSubmit={onSubmit}>
+    <form className="forgotpasswordform" onSubmit={onSubmit}>
       <Input
         value={email}
         placeholder="Enter your email"
