@@ -56,4 +56,15 @@
       text-align: center;
     }
   }
+
+  &__error-box {
+    color: $red-color;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 24px;
+
+    @media only screen and (min-width: $bp-desktop) {
+      font-size: 2rem;
+    }
+  }
 }
