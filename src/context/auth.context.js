@@ -26,12 +26,9 @@ export const AuthProvider = ({ children }) => {
   useEffect(() => {
     auth.onAuthStateChanged((currentUser) => {
       setUser(currentUser);
+      setLoadingUser(false);
     });
   }, []);
-
-  useEffect(() => {
-    setLoadingUser(false);
-  }, [user]);
 
   const contextObj = {
     user,
